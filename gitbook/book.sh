@@ -102,4 +102,5 @@ echo '<iframe width="100%" height="800" src="http://'$1':8883/" frameborder="0" 
 mv testcase src
 mv *.md src 
 cp pages/* src
+cp img/* src
 cp -r plugin/* src
