@@ -1,0 +1,62 @@
+{
+    "author": "argon",
+    "description": "sisyphus bdd gitbook",
+    "extension": null,
+    "generator": "site",
+    "links": {
+        "sharing": {
+            "all": null,
+            "facebook": null,
+            "google": null,
+            "twitter": null,
+            "weibo": null
+        }
+    },
+    "output": null,
+    "pdf": {
+        "fontSize": 12,
+        "footerTemplate": null,
+        "headerTemplate": null,
+        "margin": {
+            "bottom": 36,
+            "left": 62,
+            "right": 62,
+            "top": 36
+        },
+        "pageNumbers": false,
+        "paperSize": "a4"
+    },
+    "plugins": [
+	    "-lunr", "-search", "search-pro", "chapter-fold", "expandable-chapters" , "splitter", "favicon", "hide-element", "back-to-top-button", "theme-fexa"
+    ],
+    "pluginsConfig": {
+	"favicon": {
+            "shortcut": "img/favicon.ico",
+            "bookmark": "img/favicon.ico",
+            "appleTouch": "img/favicon.ico",
+            "appleTouchMore": {
+                "120x120": "img/favicon.ico",
+                "180x180": "img/favicon.ico"
+            }
+	},
+	 "hide-element": {
+            "elements": [".gitbook-link"]
+        },
+	 "theme-fexa": {
+	    "search-placeholder": "Keywords",
+	    "book-summary-title": "BDD"
+	 }
+    },
+    "title": "",
+    "variables": {
+	"themeFexa":{
+            "nav":[
+                {
+                    "url": "https://github.com/argonmist/triangle.git",
+                    "target": "_blank",
+                    "name": "Gitlab"
+                }
+            ]
+        }
+    }
+}
